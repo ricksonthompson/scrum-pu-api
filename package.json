@@ -1,0 +1,19 @@
+{
+  "name": "scrum-pu-api",
+  "version": "1.0.0",
+  "description": "Power-Up pro Trello para time de desenvolvimento com SCRUM.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon src/index.js"
+  },
+  "author": "Rickson Thompson",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.5",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
